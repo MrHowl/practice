@@ -3,118 +3,65 @@
 	<title>login</title>
 </head>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
-  <style type="text/css">
-    body{background-image: url(img/login_background.png);}
-  </style>
+  <script src="js/javascript.js" type="text/javascript"></script>
 <body>
-  <div id="login_title">
-    <div id="login_title_lefttriangle"></div>
-  	<div id="login_title_icon">
-  		  <div id="login_icon_img">
-          <img src="img/login_title.png"/>
-        </div>
-        <div id="login_title_text">
-          <img src="img/login_icon.png"/>
-        </div>
-  	</div>
-    <div id="login_title_righttriangle"></div>
-    <div id="login_title_bottomtriangle"></div>
+  <div class="wrapper">
+   <div class="header">
+     <img src="img/login_title.png" alt="logo" class="headerLogo">
+     <img src="img/login_icon.png" alt="title" class="headerTitle">
+     <div class="leftTriangle"></div>
+     <div class="rightTriangle"></div>
+     <div class="bottomTriangle"></div>
+   </div>
+   <div class="partLeft">
+     <div class="lineVerticalOne"></div>
+   </div>
+   <div class="partRight">
+     <div class="SignInbar">
+       <span>Sign in</span>
+       <div class="circle-24px">
+         <i class="circle-24px-inner"></i>
+       </div>
+     </div>
+     <div class="loginItem">
+       <div class="lineSidewardsOne"></div>
+       <a href="#" class="signInIconLinkedin"></a>
+       <div class="lineSidewardsTwo"></div>
+       <p class="loginItemText-or">or</p>
+       <div class="lineSidewardsTwo"></div>
+       <a href="#" class="signInIconFacebook"></a>
+       <div class="circle-14px-one">
+         <i class="circle-14px-inner-one"></i>         
+       </div>
+       <p class="loginItemText-with">with</p>
+     </div>
+     <div class="loginBlock">
+       <div class="lineTurn">
+         <i class="semiCircle"></i>
+         <div class="circel-14px-two">
+           <i class="circle-14px-inner-two"></i>
+         </div>
+       </div>
+       <input type="text" class="loginInput" placeholder="username">
+       <div class="lineVerticalTwo"></div>
+       <input type="password" class="loginInput" placeholder="password">
+       <div class="lineVerticalTwo"></div>
+       <a href="#" class="siginInBtn">
+         <p class="siginInText">Sign in</p>
+         <p class="siginSymbol">&gt</p>
+       </a>
+       <span class="loginBlocksText-or">or</span>
+     </div>
+     <div class="loginOutBlock">
+       <a href="#" class="signUp">
+         <span class="signUpText">Sign up</span>
+       </a>
+       <div class="lineSidewardsThree"></div>
+       <div class="cirlcle-18px-one">
+         <i class="circle-18px-inner-one"></i>
+       </div>
+     </div>
+   </div>
   </div>
-  <div id="login_left">
-  	<div id="login_left_one">
-  		<p id="left_one">with</p>
-  	</div>
-    <div id="login_left_two">
-    	<p id="left_two">or</p>
-    </div>
-    <div id="login_left_three">
-    	<a href="" id="signup1"></a>
-      <p id="signup1_text">Sign up</p>
-    </div>
-    <div id="login_left_four">	
-    </div>
-  </div>
-  <div id="login_middle">
-  	<div id="login_middle_title">
-  		<div id="login_middle_title_text">
-  			<p id="login_middle_title_p">Sign in</p>
-  		</div>
-  	</div>
-  	<div id="login_middle_link">
-  		<div id="login_middle_link_line1"></div>
-  		<div id="login_middle_link_in">
-  			<img src="img/login_in1.png" alt="login_in"/>
-  		</div>
-  		<div id="login_middle_link_line2"></div>
-  		<div id="login_middle_link_text1">
-  			<p id="login_middle_link_p">or</p>
-  		</div>
-  		<div id="login_middle_link_line3"></div>
-  		<div id="login_middle_link_facebook">
-  			<img src="img/login_facebook1.png" alt="login_facebook"/>
-  		</div>
-  	</div>
-  	<form>
-  	<div id="login_middle_login">
-  		<div id="login_middle_login_line1"></div>
-  		<div id="login_middle_username">
-  			<input id="username1" type="text" value="username" style="width: 242px;height: 31px;"/>
-  		</div>
-  		<div id="login_middle_login_line3"></div>
-  		<div id="login_middle_password">
-  			<input id="password" type="text" value="password" style="width:242px; height:31px;"/>
-  		</div>
-  		<div id="login_middle_login_line4"></div>
-  		<div id="login_middle_signin">
-  			<div>
-           <a href="" id="login_middle_siginin_a"></a>
-        </div>
-        <div>
-          <p id="login_middle_signin_text">Sign in</p>
-        </div>
-  		  <div id="login_middle_go">
-           <img src="img/login_go1.png"/>
-        </div>
-  		</div>
-  	</div>
-  	</form>
-  </div>
-    <div id="login_right">
-    	<div id="login_right_in">
-    		<img src="img/login_in2.png" alt="in"/>
-    	</div>
-      	<div id="login_right_facebook">
-    		<img src="img/login_facebook2.png" alt="facebook"/>
-    	</div>
-    	<form action="">
-    		<div id="login_right_username">
-    			<input id="username2" type="text" value="username" style="  width: 243px; height: 31px;" />
-    		</div>
-    		<div id="login_right_signin">
-    		<div>
-           <a href="" id="login_right_siginin_a1"></a>
-        </div>
-        <div>
-          <p id="login_right_siginin_text1">Sign in</p>
-        </div>
-    			<div id="login_right_go">
-             <img src="img/login_go2.png" alt="" href=""/>
-          </div>
-    		</div>
-            <div id="login_right_signup">
-                <a href="" id="signup2"></a>
-                <p id="signup2_text">Sign up</p>
-            </div>
-    	</form>
-    </div>
-    <div id="circle1"></div>
-    <div id="circle2"></div>
-    <div id="circle3"></div>
-    <div id="circle4"></div>
-    <div id="circle5"></div>
-    <div id="circle6"></div>
-    <div id="circle7"></div>
-    <div id="circle8"></div>
-    <div id="half_circle"></div>
 </body>
 </html>

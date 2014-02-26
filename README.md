@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ELWG前端学习小组任务提交处
 =====
 
@@ -31,3 +32,8 @@ ELWG前端学习小组任务提交处
 [Git]: https://sublime.wbond.net/packages/Git
 [Stack Overflow]: http://stackoverflow.com/
 [Google编码规范]: https://code.google.com/p/google-styleguide/
+=======
+practice
+========
+stay hungry stay foolish
+>>>>>>> 71c32fa967b21198420e621d5f07a78a5bbb2f2d
